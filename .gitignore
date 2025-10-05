@@ -1,0 +1,9 @@
+wera-app/app/.dart_tool/*
+wera-app/app/wera-app-api/wera-app-api/Lib/*
+wera-app/app/wera-app-api/venv-grpc-tools/*
+wera-app/app/wera-app-api/wera-app-api/*
+wera-app/app/ios/build/*
+wera-app/app/build/*
+wera-app/app/wera-app-api/wera-forum-app-credentials.json
+wera-app/app/wera-app-api/wera-forum-app-firebase-sdk-credentials.json
+wera-app/app/wera-app-api/src/unused/google-services.json
