@@ -7,7 +7,7 @@ wera-app/app/ios/build/*
 wera-app/app/build/*
 
 wera-app/app/wera-app-api/wera-forum-app-credentials.json
-wera-app/app/wera-app-api/wera-forum-app-firebase-sdk-credentials.json
+wera-app/app/wera-app-api/wera-forum-app-firebase-adminsdk-credentials.json
 wera-app/app/wera-app-api/src/unused/google-services.json
 wera-app/app/android/app/google-services.json
 
