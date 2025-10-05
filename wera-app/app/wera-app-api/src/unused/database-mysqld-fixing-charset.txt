@@ -1,0 +1,32 @@
+>> https://mariadb.com/kb/en/setting-character-sets-and-collations/ <<
+
+mysqld --help --verbose
+strg+f my.cnf
+
+> Default options are read from the following files in the given order:
+> C:\Windows\my.ini
+> C:\Windows\my.cnf
+> C:\my.ini
+> C:\my.cnf
+> C:\Program Files\MariaDB 10.4\my.ini
+> C:\Program Files\MariaDB 10.4\my.cnf
+> C:\Program Files\MariaDB 10.4\data\my.ini
+> C:\Program Files\MariaDB 10.4\data\my.cnf
+
+SHOW COLLATION LIKE 'utf8%';
+
+
+[client]
+...
+default-character-set=utf8mb4
+...
+[mysql]
+...
+default-character-set=utf8mb4
+...
+[mysqld]
+...
+collation-server = utf8mb4_unicode_ci
+init-connect='SET NAMES utf8mb4'
+character-set-server = utf8mb4
+

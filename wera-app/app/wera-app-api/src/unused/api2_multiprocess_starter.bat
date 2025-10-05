@@ -1,0 +1,3 @@
+call activate.bat
+python api2_multiprocess_starter.py
+pause

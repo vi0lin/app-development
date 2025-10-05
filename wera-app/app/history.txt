@@ -1,0 +1,9 @@
+doskey exit=doskey/history$g$gG:\Media\Code\Flutter\app\commands.log$texit $1 $2
+flutter create --org com.wera app
+
+install dart-sdk
+install protoc
+
+git clone https://github.com/flutter/flutter.git -b stable
+
+nach der umstellung

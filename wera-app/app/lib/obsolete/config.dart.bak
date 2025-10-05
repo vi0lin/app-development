@@ -1,0 +1,7 @@
+//final String ip = '{WERA_PROJECTS_DOMAIN}:9000/';
+String host = '{WERA_PROJECTS_IP}';
+String ip = 'http://'+host+':9000/';
+
+String localApkVersion = "";
+String onlineApkVersion = "";
+bool enableLogin = false;

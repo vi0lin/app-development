@@ -1,0 +1,21 @@
+syntax = "proto3";
+package api2;
+message Request {
+	string request_data = 1;
+}
+message Response {
+	string response_data = 1;
+}
+
+message PushRequest {
+	string idToken = 1;
+	string message = 2;
+}
+message PushResponse {
+	string idUser = 1;
+	string message = 2;
+}
+service API2 {
+	rpc bidirectionalStream(stream Request) returns (stream Response);
+	rpc pushStream(stream PushRequest) returns (stream PushResponse);
+}

@@ -1,0 +1,2 @@
+./activate.sh
+python3 api2_multiprocess_variant_ssl_in_multiprocess.py
