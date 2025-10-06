@@ -18,5 +18,5 @@ wera-app/app/wera-app-api/wera-app-api/*
 wera-steuerung/build
 wera-steuerung/.git.off
 wera-steuerung/.vscode
-wera-steuerung/WeraForum
-wera-steuerung/KidsForum
+wera-steuerung/images/WeraForum
+wera-steuerung/images/KidsForum
